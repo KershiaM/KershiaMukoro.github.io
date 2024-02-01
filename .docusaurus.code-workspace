@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".docusaurus"
+		},
+		{
+			"path": "blog"
+		},
+		{
+			"path": "docs"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "static"
+		}
+	]
+}
