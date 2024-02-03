@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'About Me',
+    Svg: require('@site/static/img/about_me_photo.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+    I'm Kershia—a tech enthusiast with a flair for transforming complex concepts into accessible content. In my downtime, you'll find me out hiking, mastering the onewheel, or enjoying the company of my three adorable dogs, Holly, Tabitha, and Moji. Welcome to my page, where technology meets adventure and everyday life!
       </>
     ),
   },
