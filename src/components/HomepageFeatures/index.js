@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'About Me',
-    Svg: require('@site/static/img/about_me_photo.svg').default,
+    Svg: require('@site/static/img/home_1.svg').default,
     description: (
       <>
     I'm Kershia—a tech enthusiast with a flair for transforming complex concepts into accessible content. In my downtime, you'll find me out hiking, mastering the onewheel, or enjoying the company of my three adorable dogs, Holly, Tabitha, and Moji. Welcome to my page, where technology meets adventure and everyday life!
@@ -13,22 +13,20 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Pathfinding Paws',
+    Svg: require('@site/static/img/home_2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Step into the lives of Holly, Tabitha, and Moji, a trio with unique spirits that brighten every path they tread. Holly brings laughter and lightheartedness, Tabitha adds a dash of adventure, and Moji, the tiny yet mighty Chihuahua, proves size doesn't limit heart. Dive into the Trio Tale Page for more on their personalities and backstories.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Wandering the Wilds',
+    Svg: require('@site/static/img/home_3.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Amidst Colorado's vast mountains, we've found solace, adventure, and awe. Explore with us the trails that lead to crystal-clear lakes, through aspen groves, and atop windswept ridges. These are our recommended paths for those looking to lose themselves in nature's magnificence and find peace in its grandeur.
       </>
     ),
   },

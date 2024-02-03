@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kershia Mukoro',
-  tagline: 'Under Construction',
+  title: 'Paws, Peaks, and Pixels',
+  tagline: 'Paws that Explore, Peaks that Inspire, Tails that Entertain.',
   favicon: 'img/browser.png',
 
   // Set the production url of your site here
@@ -69,9 +69,8 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Projects',
+            label: 'Pathfinding Paws',
           },
-        
           {
             href: 'https://www.linkedin.com/in/kershiam/',
             label: 'LinkedIn',
@@ -83,41 +82,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://kershiamukoro.github.io',
               },
             ],
           },
