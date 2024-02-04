@@ -41,11 +41,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: 'portfolio', // Updates the website routing
-          path: 'portfolio', // Updates where docusaurus searches for doc MD files
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -69,9 +69,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Pathfinding Paws',
+            label: 'Wandering the Wilds',
           },
-          {
+          {to: '/blog', label: 'Blog', position: 'left'},
+                   {
             href: 'https://www.linkedin.com/in/kershiam/',
             label: 'LinkedIn',
             position: 'right',
