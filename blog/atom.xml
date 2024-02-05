@@ -8,17 +8,6 @@
     <subtitle>Paws, Peaks, and Pixels Blog</subtitle>
     <icon>https://kershiamukoro.github.io/KershiaMukoro.github.io/img/browser.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://kershiamukoro.github.io/KershiaMukoro.github.io/blog/welcome</id>
-        <link href="https://kershiamukoro.github.io/KershiaMukoro.github.io/blog/welcome"/>
-        <updated>2024-01-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to my blog!]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to my blog!</p>
-<p>I'm Kershia, a tech enthusiast, a soldier in the Army Reserves, and a medical lab specialist. I have a passion for simplifying complex concepts and making them accessible to all. When I'm not immersed in technology or serving my country, I'm exploring the great outdoors with my three beloved dogs.</p>
-<p>Join me on this blog as I combine my diverse interests to provide you with engaging and informative content. We'll embark on adventures with my canine companions, Holly, Tabitha, and Moji, and explore the stunning landscapes of Colorado's mountains.</p>
-<p>Whether you're an outdoor enthusiast or just looking for some tech insights, there's something here for everyone. Thank you for visiting, and I can't wait to share this journey with you!</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A November to Remember: Lessons from the Ledge]]></title>
         <id>https://kershiamukoro.github.io/KershiaMukoro.github.io/blog/A November to Remember: Lessons from the Ledge</id>
         <link href="https://kershiamukoro.github.io/KershiaMukoro.github.io/blog/A November to Remember: Lessons from the Ledge"/>
@@ -100,5 +89,16 @@ On a sunny September 19, 2019, my boots hit the Barr Trail, eager for the ascent
             <name>Kershia Mukoro</name>
             <uri>https://kershiamukoro.github.io</uri>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://kershiamukoro.github.io/KershiaMukoro.github.io/blog/welcome</id>
+        <link href="https://kershiamukoro.github.io/KershiaMukoro.github.io/blog/welcome"/>
+        <updated>2023-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to my blog!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to my blog!</p>
+<p>I'm Kershia, a tech enthusiast, a soldier in the Army Reserves, and a medical lab specialist. I have a passion for simplifying complex concepts and making them accessible to all. When I'm not immersed in technology or serving my country, I'm exploring the great outdoors with my three beloved dogs.</p>
+<p>Join me on this blog as I combine my diverse interests to provide you with engaging and informative content. We'll embark on adventures with my canine companions, Holly, Tabitha, and Moji, and explore the stunning landscapes of Colorado's mountains.</p>
+<p>Whether you're an outdoor enthusiast or just looking for some tech insights, there's something here for everyone. Thank you for visiting, and I can't wait to share this journey with you!</p>]]></content>
     </entry>
 </feed>
