@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 slug: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
 title: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
 authors:

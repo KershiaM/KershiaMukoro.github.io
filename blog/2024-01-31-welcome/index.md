@@ -1,24 +1,14 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+name: Kershia Mukoro
 sidebar_position: 1
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+Welcome to my blog!
 
-Simply add Markdown files (or folders) to the `blog` directory.
+I'm Kershia, a tech enthusiast, a soldier in the Army Reserves, and a medical lab specialist. I have a passion for simplifying complex concepts and making them accessible to all. When I'm not immersed in technology or serving my country, I'm exploring the great outdoors with my three beloved dogs.
 
-Regular blog authors can be added to `authors.yml`.
+Join me on this blog as I combine my diverse interests to provide you with engaging and informative content. We'll embark on adventures with my canine companions, Holly, Tabitha, and Moji, and explore the stunning landscapes of Colorado's mountains.
 
-The blog post date can be extracted from filenames, such as:
-
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+Whether you're an outdoor enthusiast or just looking for some tech insights, there's something here for everyone. Thank you for visiting, and I can't wait to share this journey with you!

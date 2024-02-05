@@ -8,7 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/home_1.svg').default,
     description: (
       <>
-    I'm Kershia—a tech enthusiast with a flair for transforming complex concepts into accessible content. In my downtime, you'll find me out hiking, mastering the onewheel, or enjoying the company of my three dogs. Welcome to my page!
+    
+    Hi there! I'm Kershia, and I wear many hats - I'm a tech enthusiast, a soldier in the Army Reserves, and a medical lab specialist. I have a passion for transforming complex concepts into accessible content. In my downtime, you'll find me out hiking, mastering the onewheel, or enjoying the company of my three dogs. Welcome to my page!
       </>
     ),
   },
@@ -17,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/home_2.svg').default,
     description: (
       <>
-        Step into the lives of Holly, Tabitha, and Moji, a trio with unique spirits that brighten every path they tread. Dive into the Trio Tale Page for more on their personalities and backstories.
+       Meet Holly, Tabitha, and Moji - Each with their own distinct personalities and backstories, these three pups never fail to bring a smile to my face and a sense of wonder to every journey we embark on together. Their unique spirits have a way of lighting up every path they cross, and I am excited to share their adventures on my blog.
       </>
     ),
   },
