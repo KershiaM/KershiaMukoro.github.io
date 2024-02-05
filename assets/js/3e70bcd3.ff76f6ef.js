@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[406],{8540:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/KershiaMukoro.github.io/blog/tags/hello","allTagsPath":"/KershiaMukoro.github.io/blog/tags","count":2,"unlisted":false}')}}]);
