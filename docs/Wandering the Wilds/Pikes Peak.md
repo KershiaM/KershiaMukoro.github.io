@@ -5,21 +5,49 @@ sidebar_position: 1
 
 ![Pikes Peak](../../static/img/pikes_peak_snow.jpg)
 
-# Surviving High Altitudes: Pikes Peak
+# Surviving High Altitudes: Pikes Peak 
 
 Pikes Peak, also known as "America's Mountain", is a famous fourteener located in the Rocky Mountains of Colorado. Standing at an elevation of 14,115 feet, Pikes Peak offers breathtaking views and a sense of accomplishment for those who reach its summit. In this article, I want to share my tips and experiences with fellow hikers who are planning to tackle Pikes Peak. Whether you're a beginner or an experienced hiker, my hope is that this article will provide valuable insights and make your hike up Pikes Peak more enjoyable. So lace up your hiking boots and let's explore Pikes Peak together! 
 
-## How to Prepare, Stay Safe, and Overcome Hazards
-Before embarking on any hike, it is important to consider the potential hazards and safety precautions that need to be taken. This is especially crucial when attempting a challenging summit like Pikes Peak.Prioritize safety by preparing, staying hydrated, and learning emergency procedures to significantly reduce risks on challenging hikes like Pikes Peak. Educate yourself about potential hazards and how to mitigate them to ensure a safe adventure. Always put safety first in any hiking endeavor.
+## Hazards and Hiking Essentials
+Before embarking on any hike, it is important to consider the potential hazards and safety precautions that need to be taken. This is especially crucial when attempting a challenging summit like Pikes Peak. Prioritize safety by preparing mentally and physically, staying hydrated, and learning emergency procedures to significantly reduce risks on challenging hikes like Pikes Peak. Educate yourself about potential hazards and how to mitigate them to ensure a safe adventure. Always put safety first in any hiking endeavor.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="Gear and Clothing Essentials" label="Gear and Clothing Essentials" default>
+    - Sturdy Hiking Boots: Comfortable and supportive footwear with good traction.
+    - Layers of Clothing: Dress in moisture-wicking base layers, insulating layers, and a waterproof and windproof outer layer to adapt to changing weather conditions.
+    - Backpack: A comfortable backpack to carry essentials, with adjustable straps and padding.
+    - Trekking Poles: Optional but helpful for stability and reducing strain on your knees.
+    - Hat and Sunglasses: To protect from sun exposure at higher altitudes.
+    - Gloves: Warm and waterproof gloves to keep your hands protected.
+
+  </TabItem>
+  <TabItem value="Navigation and Safety Essentials" label="Navigation and Safety Essentials">
+    - AllTrails App: Download the AllTrails app for real-time trail maps, GPS tracking, and trail details.
+    - GPS Device: Optional but useful for tracking your progress.
+    - First Aid Kit: A comprehensive kit with bandages, antiseptic wipes, pain relievers, and essential medical supplies.
+    - Emergency Whistle: A whistle to signal for help in emergencies.
+    - Headlamp or Flashlight: With extra batteries for low-light or nighttime situations.
+    - Sunscreen and Lip Balm: To protect your skin from UV rays and dryness.
+    - Personal Locator Beacon (PLB): Optional but recommended for remote areas.
+
+  </TabItem>
+  <TabItem value="Food and Hydration Essentials" label="Food and Hydration Essentials">
+    - Water and Water Treatment: Carry plenty of water and a water purification method to refill from natural sources if needed.
+    - Energy Snacks: High-energy snacks like energy bars, trail mix, and dried fruits.
+    - Meals: Lightweight, dehydrated meals or packed meals for sustenance.
+    - Cooking Gear: If planning to cook, a portable stove and cookware for meal preparation.
+  </TabItem>
+</Tabs>
 
 ### Altitude Sickness
 One of the most common hazards hikers face on Pikes Peak is altitude sickness. As you ascend to higher altitudes, the air becomes thinner and oxygen levels decrease, which can lead to symptoms such as headaches, nausea, and dizziness. It is important to be aware of these symptoms and take necessary breaks or descend if needed.
 
 ### Rapid Temperature Changes
 Rapid temperature changes present another hazard to keep in mind. On Pikes Peak, the climate can shift swiftly, causing temperatures to drop as much as four degrees for every 1,000 feet you climb. This drop can pose risks to hikers who haven't prepared with the right clothing and gear. Packing warm layers and staying informed about the weather forecast are key steps before embarking on your hike. Be aware that hypothermia can occur even in temperatures as high as the mid-50s, while heat exhaustion and heat stroke also pose risks in warmer conditions.
-
-### Preparing for the Hike
-Proper preparation is crucial for a successful hike up Pikes Peak. Start by ensuring you have the necessary gear and clothing for the mountain's conditions, including sturdy hiking boots, layered clothing, a backpack with essentials like water and snacks, and trekking poles for extra support if needed. The high altitude and challenging terrain of Pikes Peak demand a lot from your body, making it essential to hydrate well and eat nutrient-rich foods before and during your hike. Also, prepare yourself mentally and physically. Understanding the challenges ahead and maintaining a positive mindset are key to conquering Pikes Peak's demanding ascent.
 
 Now that we have covered preparation, let's dive into my own adventures hiking Pikes Peak!
 
@@ -46,5 +74,4 @@ Understanding your physical limits and those of your hiking partners is another 
 In essence, thorough preparation is vital for a safe and enjoyable hike. It not only safeguards your health but could also be crucial in aiding fellow hikers. Therefore, always review your gear, pack ample water and snacks, and study your trail before setting off on any outdoor adventure. Remember, being ready for the unexpected can dramatically enhance your hiking experience.
 
 ## Happy Hiking!
-Hiking Pikes Peak is an incredible experience and remains one of my most cherished adventures. The breathtaking views, challenging terrain, and sense of accomplishment upon reaching the summit make every step worthwhile. From the Barr Trail to the summit, every step offers its own unique challenges and rewards. With proper preparation, determination, and a passion for adventure, anyone can conquer this iconic mountain. But don't just take my word for it, lace up your hiking boots and go experience it for yourself! For a more detailed account of each trip, make sure to check out my [blog](https://KershiaMukoro.github.io/blog
-). Happy hiking!
+Hiking Pikes Peak is an incredible experience and remains one of my most cherished adventures. The breathtaking views, challenging terrain, and sense of accomplishment upon reaching the summit make every step worthwhile. From the Barr Trail to the summit, every step offers its own unique challenges and rewards. With proper preparation, determination, and a passion for adventure, anyone can conquer this iconic mountain. But don't just take my word for it, lace up your hiking boots and go experience it for yourself! For a more detailed account of each trip, make sure to check out my [blog](blog\2024-02-01-pikes-peak\2023-12-04-first-attempt.md). Happy hiking!

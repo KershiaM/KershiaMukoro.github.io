@@ -1,10 +1,17 @@
 ---
+slug: 'A November to Remember: Lessons from the Ledge'
 title: 'A November to Remember: Lessons from the Ledge'
+authors:
+    name: Kershia Mukoro
+    title: Avid Hiker and Adventurer
+    url: https://kershiamukoro.github.io
 ---
 
 Our latest attempt to conquer Pikes Peak on November 10, 2023, faced us with freezing temperatures and knee-deep snow, ultimately leading to an unsuccessful climb. The challenge became apparent when my friend suffered from severe altitude sickness, making him extremely fatigued. We were just 2 miles from the summit, well past the A-frame shelter, but the effort needed to wade through the snow and his worsening condition forced us to slow down considerably.
 
 Our initial plan was to celebrate reaching the summit by taking the Cog Railway back down, a convenient option for hikers. Unlike my friend, altitude sickness never affects me, which put us in a difficult position when deciding our next steps. We had two choices:
+
+<!--truncate-->
 
 The first option was to give my extra base layers to my friend, push to the summit myself, and then catch the train down, leaving him to possibly make it to the top on his own or call for rescue services. This would require me to drive up Pikes Peak Highway, a 2-3 hour journey in the snow, to pick him up. The thought of leaving him alone, especially underprepared in terms of clothing and facing potential hypothermia or frostbite, filled me with dread.
 

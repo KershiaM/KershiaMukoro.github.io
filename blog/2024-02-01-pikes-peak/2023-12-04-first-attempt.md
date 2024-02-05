@@ -1,9 +1,16 @@
 ---
+slug: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
 title: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
+authors:
+    name: Kershia Mukoro
+    title: Avid Hiker and Adventurer
+    url: https://kershiamukoro.github.io
 ---
 
 Pikes Peak Adventure: A Tale of Heat, Hydration, and High Spirits
 On a sunny September 19, 2019, my boots hit the Barr Trail, eager for the ascent of Pikes Peak. With a backpack brimming with 4 liters of water, snacks, and essentials, I felt ready for anything. Yet, the mountain had its tests in store, starting with an unexpected blast of 79-degree heat that soon put our preparation to the test.
+
+<!--truncate-->
 
 The hike began under a clear blue sky at 08:56 AM. Right from the start, Pikes Peak offered a mix of welcoming and warning signs — a playful hint at the challenge ahead. Despite the conflicting mileage on the signs, we ventured into the heart of the trail, greeted by its infamous switchbacks. These early twists and turns, leading to the Incline Access point, were a true test of our resolve, especially after my encounters with other Colorado giants.
 
