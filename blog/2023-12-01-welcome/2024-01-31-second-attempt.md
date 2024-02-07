@@ -1,6 +1,4 @@
 ---
-sidebar_position: 3
-slug: 'A November to Remember: Lessons from the Ledge'
 title: 'A November to Remember: Lessons from the Ledge'
 authors:
     name: Kershia Mukoro

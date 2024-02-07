@@ -1,11 +1,40 @@
 .features {
   display: flex;
-  align-items: center;
+  align-items:center;
   padding: 2rem 0;
   width: 100%;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
+}
+
+.contents {
+  color: #f60606;
+}
+
+.red {
+  color: red;
+}
+.red[aria-selected='true'] {
+  border-bottom-color: red;
+}
+
+.orange {
+  color: orange;
+}
+.orange[aria-selected='true'] {
+  border-bottom-color: orange;
+}
+
+
+li[role='tab'][data-value='Gear and Clothing Essentials'] {
+  color: red;
+}
+li[role='tab'][data-value='Navigation and Safety Essentials'] {
+  color: red;
+}
+li[role='tab'][data-value='Food and Hydration Essentials'] {
+  color: red;
 }

@@ -1,3 +1,6 @@
+
+to restore the homepage add the below to an index.js file under src\pages
+
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';

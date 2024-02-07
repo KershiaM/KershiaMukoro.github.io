@@ -1,3 +1,6 @@
+to restore the homepage add the below to an index.js file under src\components\HomepageFeatures
+
+
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';

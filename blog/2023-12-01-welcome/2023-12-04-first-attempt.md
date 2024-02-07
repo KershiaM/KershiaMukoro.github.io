@@ -1,6 +1,4 @@
 ---
-sidebar_position: 2
-slug: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
 title: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
 authors:
     name: Kershia Mukoro
@@ -8,7 +6,6 @@ authors:
     url: https://kershiamukoro.github.io
 ---
 
-Pikes Peak Adventure: A Tale of Heat, Hydration, and High Spirits
 On a sunny September 19, 2019, my boots hit the Barr Trail, eager for the ascent of Pikes Peak. With a backpack brimming with 4 liters of water, snacks, and essentials, I felt ready for anything. Yet, the mountain had its tests in store, starting with an unexpected blast of 79-degree heat that soon put our preparation to the test.
 
 <!--truncate-->

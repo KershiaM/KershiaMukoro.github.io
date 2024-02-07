@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Paws, Peaks, and Pixels',
-  tagline: 'Paws that Explore, Peaks that Inspire, Tails that Entertain.',
+  title: 'Kershia Mukoro',
+  tagline: '',
   favicon: 'img/browser.png',
 
   // Set the production url of your site here
@@ -41,9 +41,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          routeBasePath: '/', // Set this value to '/'.
+         
         },
         blog: {
+          routeBasePath: '/blog',
           showReadingTime: true,
         },
         theme: {
@@ -65,12 +67,7 @@ const config = {
           src: 'img/docs_logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Wandering the Wilds',
-          },
+          
           {to: '/blog', label: 'Blog', position: 'left'},
                    {
             href: 'https://www.linkedin.com/in/kershiam/',

@@ -2,44 +2,46 @@
 title: Pikes Peak
 sidebar_position: 1
 ---
-
-![Pikes Peak](../../static/img/pikes_peak_snow.jpg)
+import pikes_peak_snow from '../../static/img/pikes_peak_snow.jpg';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Surviving High Altitudes: Pikes Peak 
 
 Pikes Peak, also known as "America's Mountain", is a famous fourteener located in the Rocky Mountains of Colorado. Standing at an elevation of 14,115 feet, Pikes Peak offers breathtaking views and a sense of accomplishment for those who reach its summit. In this article, I want to share my tips and experiences with fellow hikers who are planning to tackle Pikes Peak. Whether you're a beginner or an experienced hiker, my hope is that this article will provide valuable insights and make your hike up Pikes Peak more enjoyable. So lace up your hiking boots and let's explore Pikes Peak together! 
 
+<img src={pikes_peak_snow} alt="pikes_peak_snow" style={{width: 500}} />
+
 ## Hazards and Hiking Essentials
 Before embarking on any hike, it is important to consider the potential hazards and safety precautions that need to be taken. This is especially crucial when attempting a challenging summit like Pikes Peak. Prioritize safety by preparing mentally and physically, staying hydrated, and learning emergency procedures to significantly reduce risks on challenging hikes like Pikes Peak. Educate yourself about potential hazards and how to mitigate them to ensure a safe adventure. Always put safety first in any hiking endeavor.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+
 
 <Tabs>
   <TabItem value="Gear and Clothing Essentials" label="Gear and Clothing Essentials" default>
-    - Sturdy Hiking Boots: Comfortable and supportive footwear with good traction.
-    - Layers of Clothing: Dress in moisture-wicking base layers, insulating layers, and a waterproof and windproof outer layer to adapt to changing weather conditions.
-    - Backpack: A comfortable backpack to carry essentials, with adjustable straps and padding.
-    - Trekking Poles: Optional but helpful for stability and reducing strain on your knees.
-    - Hat and Sunglasses: To protect from sun exposure at higher altitudes.
-    - Gloves: Warm and waterproof gloves to keep your hands protected.
+    - **Sturdy Hiking Boots:** Comfortable and supportive footwear with good traction.
+    - **Layers of Clothing:** Dress in moisture-wicking base layers, insulating layers, and a waterproof and windproof outer layer to adapt to changing weather conditions.
+    - **Backpack:** A comfortable backpack to carry essentials, with adjustable straps and padding.
+    - **Trekking Poles:** Optional but helpful for stability and reducing strain on your knees.
+    - **Hat and Sunglasses:** To protect from sun exposure at higher altitudes.
+    - **Gloves:** Warm and waterproof gloves to keep your hands protected.
 
   </TabItem>
   <TabItem value="Navigation and Safety Essentials" label="Navigation and Safety Essentials">
-    - AllTrails App: Download the AllTrails app for real-time trail maps, GPS tracking, and trail details.
-    - GPS Device: Optional but useful for tracking your progress.
-    - First Aid Kit: A comprehensive kit with bandages, antiseptic wipes, pain relievers, and essential medical supplies.
-    - Emergency Whistle: A whistle to signal for help in emergencies.
-    - Headlamp or Flashlight: With extra batteries for low-light or nighttime situations.
-    - Sunscreen and Lip Balm: To protect your skin from UV rays and dryness.
-    - Personal Locator Beacon (PLB): Optional but recommended for remote areas.
+    - **AllTrails App:** Download the AllTrails app for real-time trail maps, GPS tracking, and trail details.
+    - **GPS Device:** Optional but useful for tracking your progress.
+    - **First Aid Kit:** A comprehensive kit with bandages, antiseptic wipes, pain relievers, and essential medical supplies.
+    - **Emergency Whistle:** A whistle to signal for help in emergencies.
+    - **Headlamp or Flashlight:** With extra batteries for low-light or nighttime situations.
+    - **Sunscreen and Lip Balm:** To protect your skin from UV rays and dryness.
+    - **Personal Locator Beacon (PLB):** Optional but recommended for remote areas.
 
   </TabItem>
   <TabItem value="Food and Hydration Essentials" label="Food and Hydration Essentials">
-    - Water and Water Treatment: Carry plenty of water and a water purification method to refill from natural sources if needed.
-    - Energy Snacks: High-energy snacks like energy bars, trail mix, and dried fruits.
-    - Meals: Lightweight, dehydrated meals or packed meals for sustenance.
-    - Cooking Gear: If planning to cook, a portable stove and cookware for meal preparation.
+    - **Water and Water Treatment:** Carry plenty of water and a water purification method to refill from natural sources if needed.
+    - **Energy Snacks:** High-energy snacks like energy bars, trail mix, and dried fruits.
+    - **Meals:** Lightweight, dehydrated meals or packed meals for sustenance.
+    - **Cooking Gear:** If planning to cook, a portable stove and cookware for meal preparation.
   </TabItem>
 </Tabs>
 
