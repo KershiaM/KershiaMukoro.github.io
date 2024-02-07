@@ -7,28 +7,35 @@
 /* You can override the default Infima variables here. */
 
 :root {
+  /* sidebar & nav bar font color*/
   --ifm-color-primary: #fef8f8;
-  --ifm-background-surface-color:#19181a;
+  --ifm-color-content:#fef8f8;
+  --ifm-color-content-inverse:#fef8f8;
+  --ifm-color-content-secondary:#fef8f8;
+  /* heading/navbar background color*/
+  --ifm-background-surface-color:#cccccc;
+   /* main page color*/
   --ifm-background-color:#501;
+  /* heading/navbar background color*/
+  --ifm-font-color-base: #fef8f8;
   --ifm-code-font-size: 90%;
-  --ifm-font-color-base: #fef8f8;
-}
-
-/* Footer colors */
-:root {.footer {
-  --ifm-footer-background-color: #19181a;
-  --ifm-footer-title-color:#fef8f8;
-  --ifm-footer-link-color: #fef8f8;
-  --ifm-footer-link-hover-color: #501;
-  --ifm-font-color-base: #fef8f8;
-  }
 }
 
 /* sidebar baground color */
 :root {
-.theme-doc-sidebar-container {
-  background-color:#19181a;
+  .theme-doc-sidebar-container {
+    background-color:#cccccc;
+  }
  }
+
+/* Footer colors */
+:root {.footer {
+  --ifm-footer-background-color: #cccccc;
+  --ifm-footer-title-color:#501;
+  --ifm-footer-link-color: #501;
+  --ifm-footer-link-hover-color: #fef8f8;
+  --ifm-font-color-base: #fef8f8;
+  }
 }
 
 /* right hand table of contents - font color */
@@ -43,7 +50,7 @@
 /* dark mode. */
 html[data-theme='dark'] {
   --ifm-color-primary: #ffffff;
-  --ifm-background-color: #1e2125;
+  --ifm-background-color: #19181a;
   --ifm-background-surface-color: #501;
   /*sidebar background */
   .theme-doc-sidebar-container {
