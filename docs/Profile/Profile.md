@@ -7,15 +7,11 @@ import name_banner from '../../static/img/name_banner.png';
 
 <figure><img align="left" src={resume_profile_photo} alt="Profile Photo" width="355" description="text below image"/></figure>  
 
-<figure><u>**Education**</u>&nbsp;  
-BSC Cybersecurity and Information Systems, Western Governors University, UT, In Progress  
-MSC (non-Thesis) Molecular Biology and Health, Staffordshire University, UK  
-BSC Forensic Science and Investigative Analysis, Kingston University, UK  
-AS Health Science, Uniformed Services University, MD, GPA 3.9</figure>&nbsp;      
-
 ---
 <u>**Professional Summary**</u>  
-Operations Manager with an Active DoD Secret Clearance (Army Reserves) and 5+ years experience in Project Management, Information Technology, Operations, and Human Resources. Adept at simplifying complex technical concepts and having a proven capability for managing technical projects. Seeking to leverage technical, scientific writing, and operational background to help support the strategic planning and documentation for a tech centric organization. Have previously used Markdown, Command Line, GitLab processes, and Asana along with client and customer relations in scientific, technical, and military settings. Recently began pursuing an online part-time secondary degree in Cybersecurity.
+Operations Manager with an Active DoD Secret Clearance (Army Reserves) and 5+ years experience in Project Management, Information Technology, Operations, and Human Resources. Adept at simplifying complex technical concepts and having a proven capability for managing technical projects.   
+Seeking to leverage technical, scientific writing, and operational background to help support the strategic planning and documentation for a tech centric organization.   
+Have previously used Markdown, Command Line, GitLab processes, and Asana along with client and customer relations in scientific, technical, and military settings. Recently began pursuing an online part-time secondary degree in Cybersecurity.
 
 ---
  
@@ -37,6 +33,14 @@ Operations Manager with an Active DoD Secret Clearance (Army Reserves) and 5+ ye
  	- Chaired and facilitated Requests for Proposal (RFP) and Requests for Information (RFI) evaluations for the Diagnostics Division, facilitated review panels of experts from the National Institute of Health, Centers for Disease Control and Prevention, U.S. Army Medical Research Institute of Infectious Diseases, and formally assessed alignment of Request for Proposal submissions with medical countermeasure requirements.   
  	- Composed technical evaluations, RFIs, and executive correspondence and presentations.   
  	- Recovered a 6-month program backlog and restored evaluations to on-track schedule status.  
+
+---
+
+<u>**Education**</u>  
+- BSC Cybersecurity and Information Systems, Western Governors University, UT, In Progress  
+- MSC (non-Thesis) Molecular Biology and Health, Staffordshire University, UK  
+- BSC Forensic Science and Investigative Analysis, Kingston University, UK  
+- AS Health Science, Uniformed Services University, MD, GPA 3.9
 
 ---
 
