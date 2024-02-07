@@ -5,17 +5,24 @@ slug: /
 import resume_profile_photo from '../../static/img/resume_profile_photo.png';
 import name_banner from '../../static/img/name_banner.png';
 
-<figure><img align="left" src={resume_profile_photo} alt="Profile Photo" width="355" description="text below image"/></figure>  
+<img align="left" src={resume_profile_photo} alt="Profile Photo" width="200" description="text below image"/>  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;  
 
 ---
-<u>**Professional Summary**</u>  
+### Professional Summary
 Operations Manager with an Active DoD Secret Clearance (Army Reserves) and 5+ years experience in Project Management, Information Technology, Operations, and Human Resources. Adept at simplifying complex technical concepts and having a proven capability for managing technical projects.   
 Seeking to leverage technical, scientific writing, and operational background to help support the strategic planning and documentation for a tech centric organization.   
 Have previously used Markdown, Command Line, GitLab processes, and Asana along with client and customer relations in scientific, technical, and military settings. Recently began pursuing an online part-time secondary degree in Cybersecurity.
 
 ---
  
-<u>**Professional Experience**</u>  
+### Professional Experience 
 **Operations & HR Manager, IT Manager | Samba Scientific Marketing & Media | Apr 2022 – Nov 2023**
  	- Formulated extensive educational guides that facilitated employee’s understanding and use of the Asana program management tool. Enhanced documentation was able to improve client management processes, thus contributing to a 20% reduction in admin overhead costs.  
  	- Championed implementation of an advanced Human Resources Information System (HRIS). Composed clear, user-friendly SOPs and guides for staff, detailing the nuances and functionalities of the new system.  
@@ -36,7 +43,7 @@ Have previously used Markdown, Command Line, GitLab processes, and Asana along w
 
 ---
 
-<u>**Education**</u>  
+### Education
 - BSC Cybersecurity and Information Systems, Western Governors University, UT, In Progress  
 - MSC (non-Thesis) Molecular Biology and Health, Staffordshire University, UK  
 - BSC Forensic Science and Investigative Analysis, Kingston University, UK  
@@ -44,7 +51,7 @@ Have previously used Markdown, Command Line, GitLab processes, and Asana along w
 
 ---
 
-**Other Professional Experience and Certifications**
+### Other Professional Experience and Certifications
  	- Soldier & Medical Lab Specialist | U.S. Army Reserves, 7450th MORU, CO | Oct 2019 – Present  
  	- Medical Lab Scientist (Contractor) | Scott County Hospital, KS | July 2021 – Sept 2021  
  	- Professional Sabbatical | ChungDahm Learning | Seoul, South Korea | Feb 2014 – May 2017  

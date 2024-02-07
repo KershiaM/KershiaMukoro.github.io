@@ -5,19 +5,33 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
   --ifm-color-primary: #fef8f8;
   --ifm-background-surface-color:#19181a;
   --ifm-background-color:#501;
   --ifm-code-font-size: 90%;
-}
-
-/* base font color - page headings*/
-:root {
   --ifm-font-color-base: #fef8f8;
 }
 
-/* right hand table of contents */
+/* Footer colors */
+:root {.footer {
+  --ifm-footer-background-color: #19181a;
+  --ifm-footer-title-color:#fef8f8;
+  --ifm-footer-link-color: #fef8f8;
+  --ifm-footer-link-hover-color: #501;
+  --ifm-font-color-base: #fef8f8;
+  }
+}
+
+/* sidebar baground color */
+:root {
+.theme-doc-sidebar-container {
+  background-color:#19181a;
+ }
+}
+
+/* right hand table of contents - font color */
 .table-of-contents__link {
   color: var(--ifm-toc-link-color)#fef8f8;
 }
@@ -26,23 +40,21 @@
   color: var(--ifm-toc-link-color--active)#fef8f8;
 }
 
-/* sidebar baground color */
-.theme-doc-sidebar-container {
-  background-color:#19181a;
-}
-
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* dark mode. */
 html[data-theme='dark'] {
   --ifm-color-primary: #ffffff;
   --ifm-background-color: #1e2125;
-  --ifm-background-surface-color: #121212;
+  --ifm-background-surface-color: #501;
+  /*sidebar background */
+  .theme-doc-sidebar-container {
+    background-color:#501;
+  }
 }
 
 /* Font Size */
 @media screen and (max-width: 996px) {
   :root {
-    --ifm-font-size-base: 20px;
+    --ifm-font-size-base: 17px;
   }
   article header h1 {
     font-size: 2rem !important;
@@ -54,7 +66,7 @@ html[data-theme='dark'] {
 
 @media screen and (min-width: 997px) {
   :root {
-    --ifm-font-size-base: 20px;
+    --ifm-font-size-base: 18px;
   }
   article header h1 {
     font-size: 2rem !important;
@@ -64,7 +76,7 @@ html[data-theme='dark'] {
 /* Import Custom Fonts from Google */
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-/* Change Site Font Settings Here */
+/* Change Site Font Settings */
 :root {
   --ifm-font-family-base: 'Sarabun';
   --ifm-font-family-monospace: 'Sarabun';
@@ -82,12 +94,7 @@ html[data-theme='dark'] {
 
 /* Remove shadow on the left */
 :root {
-  --ifm-global-shadow-md: 0px;
-}
-
-/* Styles to avoid dangling floating images */
-.clear, h2, h3 {
-  clear: both;
+  --ifm-global-shadow-md: 2.5rem;
 }
 
 img {
