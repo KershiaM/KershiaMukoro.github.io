@@ -80,3 +80,36 @@ To add a single extra line after a paragraph, add two extra spaces (  ) at the e
 To add an extra line of space between paragraphs, add the HTML non-breaking space (&nbsp;) code, followed by two extra spaces (e.g. &nbsp;  ).
 To add an extra line in between elements which automatically join together (such as lists, you must use the following HTML notation:
 <p>&nbsp;</p>
+
+
+Text placement beside image 
+<br clear="left"/>
+<br clear="right"/>
+<br clear="both"/>
+For example:
+
+<img align="left" src="imagepath">
+
+some text aligned to the right of the image
+
+<br clear="left"/>
+
+and some text that is below the image (without an obnoxious number of <br /> tags).
+
+Gap - Vertical (Stacked) Image Placement (align=same for all imgs)
+
+<p>
+    <img src="https://picsum.photos/500/100" >
+    <p>
+    <img src="https://picsum.photos/500/100" >
+    <p>
+    <img src="https://picsum.photos/500/100" >
+</p>
+
+Gap - Horizontal (side-by-side) (align=same for all imgs)
+With hspace property you can set horizontal (left and right) padding for an image.
+
+<p>
+    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://picsum.photos/100/100" hspace="10" >
+</p>

@@ -7,55 +7,37 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  /* sidebar & nav bar font color*/
-  --ifm-color-primary: #fef8f8;
-  --ifm-color-content:#fef8f8;
-  --ifm-color-content-inverse:#fef8f8;
-  --ifm-color-content-secondary:#fef8f8;
-  /* heading/navbar background color*/
-  --ifm-background-surface-color:#cccccc;
-   /* main page color*/
-  --ifm-background-color:#501;
-  /* heading/navbar background color*/
-  --ifm-font-color-base: #fef8f8;
-  --ifm-code-font-size: 90%;
+  /* sidebar font color*/
+    --ifm-color-primary: #000000;
+    --ifm-color-primary: #000000;
+    --ifm-color-primary-dark: #000000;
+    --ifm-color-primary-darker: #000000;
+    --ifm-color-primary-darkest: #000000;
+    --ifm-color-primary-light: #000000;
+    --ifm-color-primary-lighter: #000000;
+    --ifm-color-primary-lightest: #000000;
 }
-
-/* sidebar baground color */
-:root {
-  .theme-doc-sidebar-container {
-    background-color:#cccccc;
-  }
- }
 
 /* Footer colors */
 :root {.footer {
-  --ifm-footer-background-color: #cccccc;
-  --ifm-footer-title-color:#501;
-  --ifm-footer-link-color: #501;
-  --ifm-footer-link-hover-color: #fef8f8;
-  --ifm-font-color-base: #fef8f8;
+  --ifm-footer-background-color: #fef8f8;
+  --ifm-footer-title-color:#000000;
+  --ifm-footer-link-color: #000000;
+  --ifm-footer-link-hover-color: #000000;
   }
-}
-
-/* right hand table of contents - font color */
-.table-of-contents__link {
-  color: var(--ifm-toc-link-color)#fef8f8;
-}
-
-.table-of-contents__link--active {
-  color: var(--ifm-toc-link-color--active)#fef8f8;
 }
 
 /* dark mode. */
-html[data-theme='dark'] {
-  --ifm-color-primary: #ffffff;
-  --ifm-background-color: #19181a;
-  --ifm-background-surface-color: #501;
-  /*sidebar background */
-  .theme-doc-sidebar-container {
-    background-color:#501;
-  }
+[data-theme='dark'] {
+  --ifm-color-primary: #fef8f8;
+  --ifm-color-primary-dark: #f8cccc;
+  --ifm-color-primary-darker: #f5b6b6;
+  --ifm-color-primary-darkest: #eb7474;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #1e2125;
+  --ifm-background-surface-color: #121212;
 }
 
 /* Font Size */

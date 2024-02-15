@@ -6,6 +6,10 @@ authors:
     url: https://kershiamukoro.github.io
 ---
 
+
+
+
+
 On a sunny September 19, 2019, my boots hit the Barr Trail, eager for the ascent of Pikes Peak. With a backpack brimming with 4 liters of water, snacks, and essentials, I felt ready for anything. Yet, the mountain had its tests in store, starting with an unexpected blast of 79-degree heat that soon put our preparation to the test.
 
 <!--truncate-->
