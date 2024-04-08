@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kershia Mukoro',
-  tagline: '',
+  tagline: 'Tech made simple, clarity made powerful.',
   favicon: 'img/browser.png',
 
   // Set the production url of your site here
@@ -41,7 +41,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/', // Set this value to '/'.
+          sidebarPath: './sidebars.js', //routeBasePath: '/', // Set this value to '/'.
          
         },
         blog: {
@@ -61,19 +61,27 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Kershia Mukoro',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/docs_logo.png',
+          src: 'img/home.svg',
         },
         items: [
           
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Documentation',
+          },
+         
           {to: '/blog', label: 'Blog', position: 'left'},
                    {
             href: 'https://www.linkedin.com/in/kershiam/',
             label: 'LinkedIn',
             position: 'right',
           },
+          
         ],
       },
       footer: {

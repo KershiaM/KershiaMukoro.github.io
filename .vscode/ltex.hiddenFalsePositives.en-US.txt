@@ -1,0 +1,1 @@
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QLook for and click the \"+ Create” button on the top left of your screen.\\E$"}

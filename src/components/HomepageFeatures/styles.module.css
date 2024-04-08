@@ -28,13 +28,9 @@
   border-bottom-color: orange;
 }
 
-
-li[role='tab'][data-value='Gear and Clothing Essentials'] {
-  color: red;
+.yellow {
+  color: yellow;
 }
-li[role='tab'][data-value='Navigation and Safety Essentials'] {
-  color: red;
-}
-li[role='tab'][data-value='Food and Hydration Essentials'] {
-  color: red;
+.yellow[aria-selected='true'] {
+  border-bottom-color: yellow;
 }

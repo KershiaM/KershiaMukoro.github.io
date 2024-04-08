@@ -113,3 +113,17 @@ With hspace property you can set horizontal (left and right) padding for an imag
     <img src="https://picsum.photos/100/100" hspace="10" >
     <img src="https://picsum.photos/100/100" hspace="10" >
 </p>
+
+---
+How to add admonitions
+
+:::note
+This guide assumes that you are familiar with Asana's basic operations and functions.
+:::
+
+---
+How to Add Cards to a md page:
+
+import DocCardList from '@theme/DocCardList';
+<DocCardList />
+---
