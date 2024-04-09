@@ -8,29 +8,28 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'About Me',
-    Svg: require('@site/static/img/home_1.svg').default,
+    Svg: require('@site/static/img/portfolio.svg').default,
     description: (
       <>
-    
-    Hi there! I'm Kershia, and I wear many hats - I'm a tech enthusiast, a soldier in the Army Reserves, and a medical lab specialist. I have a passion for transforming complex concepts into accessible content. In my downtime, you'll find me out hiking, mastering the onewheel, or enjoying the company of my three dogs. Welcome to my page!
+      Welcome to my corner of the web! I'm Kershia, a multifaceted professional. Beyond the roles of technical writer, U.S. Army Reserve Soldier, and certified Medical Lab Scientist, I'm an adventure-seeker at heart. My world is a blend of curiosity, creativity, and a thirst for knowledge, especially as I dive into cybersecurity. You'll often find me exploring the outdoors, gliding on my onewheel, or enjoying the company of my three dogs.
       </>
     ),
   },
   {
-    title: 'Pathfinding Paws',
-    Svg: require('@site/static/img/home_2.svg').default,
+    title: 'Portfolio',
+    Svg: require('@site/static/img/portfolio.svg').default,
     description: (
       <>
-       Meet Holly, Tabitha, and Moji - Each with their own distinct personalities and backstories, these three pups never fail to bring a smile to my face and a sense of wonder to every journey we embark on together. Their unique spirits have a way of lighting up every path they cross, and I am excited to share their adventures on my blog.
+     As a Colorado-based technical writer with a rich five-year history,  I specialize in creating detailed, engaging documentation tailored to this website. This page offers a curated look at my work, specifically designed to showcase my capabilities. For a deeper dive into my projects and to view these samples, please click on the 'Documentation' link.
       </>
     ),
   },
   {
     title: 'Wandering the Wilds',
-    Svg: require('@site/static/img/home_3.svg').default,
+    Svg: require('@site/static/img/portfolio.svg').default,
     description: (
       <>
-        Amidst Colorado's vast mountains, we've found solace, adventure, and awe. Explore with us the trails that lead to crystal-clear lakes, through aspen groves, and atop windswept ridges.
+        Amidst Colorado's vast mountains, we've found solace, adventure, and awe. Join us as we wander through mesmerizing landscapes, from serene lakes nestled in the wilderness to vibrant aspen groves and majestic, windswept ridges. Each post is an invitation to discover the awe-inspiring trails and the stories they hold.
       </>
     ),
   },
