@@ -49,7 +49,7 @@ const config = {
           showReadingTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: ('./src/css/custom.css'),
         },
       }),
     ],
@@ -97,7 +97,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kershia Mukoro, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
