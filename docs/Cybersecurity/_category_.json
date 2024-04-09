@@ -1,0 +1,14 @@
+{
+    "position": 1,
+    "label": "Cybersecurity",
+    "collapsible": true,
+    "collapsed": false,
+    "className": "red",
+    "link": {
+      "type": "generated-index",
+      "title": "Cybersecurity Documentation"
+    },
+    "customProps": {
+      "description": "This description can be used in the swizzled DocCard"
+    }
+  }
