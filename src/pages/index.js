@@ -10,7 +10,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src={require('/static/img/imghero.png') .default} alt="Hero Banner Image" className="hero__image" style={{ width: 'auto', height: 'auto' }}/>
+        <img src={require('/static/img/imghero.png') .default} alt="Hero Banner Image" className="hero__image" style={{ width:'auto', height:'auto' }} max-width='70%'/>
         <Heading as="h1" className="hero__title">{siteConfig.title}</Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <paragraph>Passionate about enhancing business processes and driving project success through top-tier documentation services designed to make a substantial impact. Whether you are revamping existing documents or crafting a new documentation framework from scratch, I am here to lead the way.  
