@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #25a7c1; /*highlight*/ 
+  --ifm-color-primary: #25a7c1; /*navbar and sidebar highlight font*/
   --ifm-color-primary-dark: #000000;
   --ifm-color-primary-darker: #000000;
   --ifm-color-primary-darkest: #000000;
@@ -18,7 +18,6 @@
 }
 
 /* dark mode. */
-  
 [data-theme='dark'] {
   --ifm-color-primary: #25a7c1;           /*navbar and sidebar highlight font*/
   --ifm-color-primary-dark: #2196ae;
@@ -92,12 +91,11 @@
 }
 
 img {
-  max-width: 100%;
+  width:auto;
+  height: auto;
 }
 
-/* Terminal-like style for code blocks */
-
-/* More specific targeting for code blocks */
+/* Terminal-like style for code blocks and more specific targeting for code blocks */
 pre[class*="language-"]>code {
   background-color: #333333 !important; /* Force override */
   color: #ffffff !important; /* Force override */
@@ -107,7 +105,7 @@ pre[class*="language-"]>code {
 }
 
 /* General Form Styles */
-.form-container {yarn 
+.form-container { 
   background-color: aliceblue; /* Light background for the form area */
   padding: 20px;
   border-radius: 10px;
@@ -115,13 +113,23 @@ pre[class*="language-"]>code {
   color: #333; /* Default text color */
 }
 
+/* General label styles, applicable in light mode */
+.form-container label {
+  display: block;
+  margin-top: 20px;
+  color: #333; /* Default dark color for light mode */
+  font-family: 'Sarabun', sans-serif;
+  font-size: 16px;
+}
+
+
 /* Dark Mode Styles for the Form Container */
 [data-theme='dark'] .form-container {
   background-color: #333; /* Dark background for the form area in dark mode */
   color: #ffffff; /* Light text color for readability in dark mode */
 }
 
-/* Input and Textarea Styles - Ensure contrast in both modes */
+/* Input and Text area Styles - Ensure contrast in both modes */
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container select,
@@ -145,6 +153,11 @@ pre[class*="language-"]>code {
   border: 1px solid #888; /* Slightly lighter border in dark mode for contrast */
 }
 
+/* Specific dark mode styles */
+[data-theme='dark'] .form-container label {
+  color: #ffffff; /* Change to white in dark mode */
+}
+
 /* Button Styles */
 .form-container button {
   width: 100%;
@@ -158,19 +171,4 @@ pre[class*="language-"]>code {
 
 .form-container button:hover {
   background-color: var(--ifm-color-primary-dark); /* Darker primary color on hover */
-}
-
-
-/* General label styles, applicable in light mode */
-.form-container label {
-  display: block;
-  margin-top: 20px;
-  color: #333; /* Default dark color for light mode */
-  font-family: 'Sarabun', sans-serif;
-  font-size: 16px;
-}
-
-/* Specific dark mode styles */
-[data-theme='dark'] .form-container label {
-  color: #ffffff; /* Change to white in dark mode */
 }
