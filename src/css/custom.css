@@ -30,14 +30,37 @@
 
 
 /* Footer colors */
-:root {.footer {
-  --ifm-footer-background-color: aliceblue;
-  --ifm-footer-title-color:#000000;
-  --ifm-footer-link-color: #000000;
+:root {
+  --ifm-footer-background-color: #333333;
+  --ifm-footer-title-color:#4ec5dd;
+  --ifm-footer-link-color: #4ec5dd;
   --ifm-footer-link-hover-color: #0ee2f1;
   }
+
+/* Dark mode overrides */
+[data-theme='dark'] {
+  --ifm-footer-background-color: #333333; /* Darker background for dark mode */
+  --ifm-footer-title-color: #ffffff; /* White text for titles in dark mode */
+  --ifm-footer-link-color: #ffffff; /* White text for links in dark mode*/
+  --ifm-footer-link-hover-color: #4ec5dd; /* Lighter blue for link hover in dark mode*/
 }
 
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  color: var(--ifm-footer-link-color);
+}
+
+.footer a {
+  color: var(--ifm-footer-link-color);
+}
+
+.footer a:hover {
+  color: var(--ifm-footer-link-hover-color);
+}
+
+.footer h1, .footer h2, .footer h3 {
+  color: var(--ifm-footer-title-color);
+}
 
 /* Font Size */
 @media screen and (max-width: 996px) {
@@ -52,13 +75,7 @@
   }
 }
 
-.hero__image {
-max-width: 70%;
-width:auto;
-height: auto;
-}
-
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 997px) {
   :root {
     --ifm-font-size-base: 17px;
   }
@@ -66,6 +83,22 @@ height: auto;
     font-size: 2rem !important;
   }
 }
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .hero__subtitle {
+    font-size: 1.25rem; /* Smaller font size for mobile */
+  }
+
+  .p {
+    font-size: 0.9rem; /* Smaller paragraph size */
+  }
+}
+
 
 /* Import Custom Fonts from Google */
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -95,9 +128,11 @@ height: auto;
 :root {
   --ifm-global-shadow-md: 2.5rem;
 }
+
 img {
   width:auto;
   height: auto;
+  object-fit: contain;
 }
 
 /* Terminal-like style for code blocks and more specific targeting for code blocks */
@@ -177,3 +212,4 @@ pre[class*="language-"]>code {
 .form-container button:hover {
   background-color: var(--ifm-color-primary-dark); /* Darker primary color on hover */
 }
+
