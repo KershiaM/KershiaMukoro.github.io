@@ -1,12 +1,16 @@
 ---
-Title: "Cybersecurity for Beginners" 
-Sidebar_Position: 2
+title: "Cybersecurity for Beginners" 
+sidebar_Position: 1
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import cia from '../../static/img/cia.png';
+import undconst from '../../static/img/undconst.gif';
 
+<img align="left" src={undconst} alt="Under Construction Image" width="800" hspace="10"/>
+
+<br clear="both"/>
 
 # Cybersecurity for Beginners
 

@@ -89,8 +89,8 @@
 :root {
   --ifm-global-shadow-md: 2.5rem;
 }
-
 img {
+  max-width: 70%;
   width:auto;
   height: auto;
 }
