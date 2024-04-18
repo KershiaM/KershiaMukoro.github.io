@@ -1,14 +1,16 @@
 {
-    "position": 1,
-    "label": "Cybersecurity",
-    "collapsible": true,
-    "collapsed": false,
-    "className": "red",
-    "link": {
+  "label": "Cybersecurity",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
       "type": "generated-index",
-      "title": "Cybersecurity Documentation"
-    },
-    "customProps": {
-      "description": "This description can be used in the swizzled DocCard"
-    }
+      "description": "This guide will walk through the essentials of cybersecurity for those stepping into this field for the first time. Whether you are concerned about protecting your personal data, securing your online transactions, or simply curious about how digital defense mechanisms work."
+
   }
+}
+
+
+
+
+

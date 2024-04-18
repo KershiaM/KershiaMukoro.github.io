@@ -9,14 +9,14 @@ import DocCardList from '@theme/DocCardList';
 
 Before we begin, let's go over the building blocks you will use to create rules:
 
-- **Triggers**: Conditions that start a rule.
-- **Actions**: The automated responses that follow a trigger.
-- **Conditions**: Specific criteria that determine whether an action should be executed.
-- **Sections**: Organizational units within a project that group tasks based on stages or types.
-- **Due Dates**: The deadlines assigned to tasks. 
-- **Assignees**: The team members responsible for completing tasks.
+- **Triggers**: Initiate a rule.
+- **Actions**: The automated response following a trigger.
+- **Conditions**: Specific criteria to determine if an action should be executed.
+- **Sections**: Units within a project that group tasks based on stages or types.
+- **Due Dates**: Deadlines assigned to tasks. 
+- **Assignees**: Team members responsible for completing tasks.
 - **Priorities**: Levels of importance assigned to tasks.
-- **Custom Fields**: User-defined fields that add extra information to tasks.
+- **Custom Fields**: User-defined fields to add extra information to tasks.
 - **Integrations**: Connections with other tools or applications.
 
 ### How to Create a Rule
@@ -27,27 +27,27 @@ Before we begin, let's go over the building blocks you will use to create rules:
 
 **1.** Open Asana and sign in to your account.
 
-**2.** Navigate to the project where you want to create a rule.
+**2.** Navigate to your project.
 
-**3.** Click on the "Customize" button, usually found on the far right of your project, under your profile image.
+**3.** Click the **Customize** button, found in the top right corner, under your profile image.
 
-**4.** Scroll down to Rules in the Customize tab and click on "Add Rule." A pop-up window will open.
+**4.** Scroll down to Rules and click **Add Rule.**
 
-**5.** Click on "Create Custom Rule" at the top to start creating a new rule.
+**5.** Select **Create Custom Rule.**
 
-**6.** Click "Choose a Trigger" and select a trigger from the list of options. A trigger will initiate your rule.
+**6.** Choose a **Trigger** from the list of options.
 
-**7.** After choosing a trigger, pick an action from the available options listed. An action is what you want to automatically occur when the trigger happens.
+**7.** Choose an **Action** from the available options. 
 
-**8.** (Optional) If your rule requires specific conditions (triggers) to be met before the action executes, you can select and define those conditions.
+**8.** (Optional) Add **Conditions** if your rule requires specific criteria to be met before the action executes.
 
-**9.** Give your rule a clear and descriptive name, so you can easily identify it later.
+**9.** Give your rule a clear and descriptive name.
 
-**10.** Review your rule to ensure you set up as intended, then click "Save".
+**10.** Review your rule, then click **Save.**
 
-**11.** Test your rule by performing the trigger and observing the action to make sure the rule works as expected.
+**11.** Test your rule works as expected by performing the trigger and observing the result.
 
-**12.** Congratulations! You've successfully created a rule for your project in Asana. Automate your project process, saving time and ensuring consistency across your tasks.
+**12.** Congratulations! You've successfully created a rule for your project.
  
 &nbsp;  
 

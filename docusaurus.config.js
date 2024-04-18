@@ -38,7 +38,7 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      // /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js', //routeBasePath: '/', // Set this value to '/'.
@@ -55,10 +55,9 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
+  themeConfig:{
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Home',
@@ -76,16 +75,17 @@ const config = {
           },
          
           {to: '/blog', label: 'Blog', position: 'left'},
-                   {
+                   
+          {to: '/contact', label: 'Contact Me', position: 'right'}, // Make sure '/contact' is set up
+          {
             href: 'https://www.linkedin.com/in/kershiam/',
             label: 'LinkedIn',
             position: 'right',
           },
-          
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           {
             title: 'More',
@@ -94,16 +94,26 @@ const config = {
                 label: 'GitHub',
                 href: 'https://kershiamukoro.github.io',
               },
+              {label: 'Contact Me', to: '/contact'},
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kershia Mukoro, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kershia Mukoro`,
       },
       prism: {
-        theme: prismThemes.github,
+        // theme: prismThemes.github, /* affects code block text color */
         darkTheme: prismThemes.dracula,
+         defaultLanguage: 'javascript',
       },
-    }),
+       // Add your script here:
+    scripts: [
+      {
+        src: './js/clipboard.js',
+        async: true,
+        defer: true,
+      }
+    ]
+    }
 };
 
 export default config;

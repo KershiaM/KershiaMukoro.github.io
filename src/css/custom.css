@@ -7,38 +7,38 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  /* sidebar font color*/
-    --ifm-color-primary: #000000;
-    --ifm-color-primary: #000000;
-    --ifm-color-primary-dark: #000000;
-    --ifm-color-primary-darker: #000000;
-    --ifm-color-primary-darkest: #000000;
-    --ifm-color-primary-light: #000000;
-    --ifm-color-primary-lighter: #000000;
-    --ifm-color-primary-lightest: #000000;
-}
-
-/* Footer colors */
-:root {.footer {
-  --ifm-footer-background-color: #fef8f8;
-  --ifm-footer-title-color:#000000;
-  --ifm-footer-link-color: #000000;
-  --ifm-footer-link-hover-color: #000000;
-  }
+  --ifm-color-primary: #25a7c1; /*highlight*/ 
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-code-font-size: 95%; /*impacts codeblock font size*/   
 }
 
 /* dark mode. */
+  
 [data-theme='dark'] {
-  --ifm-color-primary: #fef8f8;
-  --ifm-color-primary-dark: #f8cccc;
-  --ifm-color-primary-darker: #f5b6b6;
-  --ifm-color-primary-darkest: #eb7474;
-  --ifm-color-primary-light: #ffffff;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
-  --ifm-background-color: #1e2125;
-  --ifm-background-surface-color: #121212;
+  --ifm-color-primary: #25a7c1;           /*navbar and sidebar highlight font*/
+  --ifm-color-primary-dark: #2196ae;
+  --ifm-color-primary-darker: #1f8ea4;
+  --ifm-color-primary-darkest: #1a7587;
+  --ifm-color-primary-light: #29b8d4;
+  --ifm-color-primary-lighter: #31bcd8;
+  --ifm-color-primary-lightest: #4ec5dd;
 }
+
+
+/* Footer colors */
+:root {.footer {
+  --ifm-footer-background-color: aliceblue;
+  --ifm-footer-title-color:#000000;
+  --ifm-footer-link-color: #000000;
+  --ifm-footer-link-hover-color: #0ee2f1;
+  }
+}
+
 
 /* Font Size */
 @media screen and (max-width: 996px) {
@@ -76,6 +76,11 @@
   --ifm-font-weight:700
 }
 
+/* code block font */
+:root {
+  --ifm-font-family-monospace: 'Courier New', Courier, monospace;
+}
+
 /* Header Dropdown Menu */
 .dropdown__link {
   font-size: inherit;
@@ -90,18 +95,82 @@ img {
   max-width: 100%;
 }
 
-/*img + em {
-	/* style your captions here
-}/*
+/* Terminal-like style for code blocks */
 
-/*Adjust image position markdown![](image.png#left*/
-/* img[src*='#left'] {
-  float: left;
+/* More specific targeting for code blocks */
+pre[class*="language-"]>code {
+  background-color: #333333 !important; /* Force override */
+  color: #ffffff !important; /* Force override */
+  padding: 1rem;
+  border-radius: 5px;
+  /* font-weight: bold; */
 }
-img[src*='#right'] {
-  float: right;
+
+/* General Form Styles */
+.form-container {yarn 
+  background-color: aliceblue; /* Light background for the form area */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #333; /* Default text color */
 }
-img[src*='#center'] {
+
+/* Dark Mode Styles for the Form Container */
+[data-theme='dark'] .form-container {
+  background-color: #333; /* Dark background for the form area in dark mode */
+  color: #ffffff; /* Light text color for readability in dark mode */
+}
+
+/* Input and Textarea Styles - Ensure contrast in both modes */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff; /* Light background for inputs */
+  color: #000; /* Dark text for inputs */
+}
+
+[data-theme='dark'] .form-container input[type="text"],
+[data-theme='dark'] .form-container input[type="email"],
+[data-theme='dark'] .form-container select,
+[data-theme='dark'] .form-container textarea {
+  background-color: #666; /* Darker background for inputs in dark mode */
+  color: #fff; /* Light text for inputs in dark mode */
+  border: 1px solid #888; /* Slightly lighter border in dark mode for contrast */
+}
+
+/* Button Styles */
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--ifm-color-primary); /* Use the primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: var(--ifm-color-primary-dark); /* Darker primary color on hover */
+}
+
+
+/* General label styles, applicable in light mode */
+.form-container label {
   display: block;
-  margin: auto;
-} */
+  margin-top: 20px;
+  color: #333; /* Default dark color for light mode */
+  font-family: 'Sarabun', sans-serif;
+  font-size: 16px;
+}
+
+/* Specific dark mode styles */
+[data-theme='dark'] .form-container label {
+  color: #ffffff; /* Change to white in dark mode */
+}

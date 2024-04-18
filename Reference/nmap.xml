@@ -1,0 +1,18 @@
+<userguide>
+    <product>Nmap</product>
+
+    <description>What is it and purpose</description>
+
+    <install>How to set up</install>
+
+    <features>Product capabilities</features>
+
+    <use>how to use product</use>
+
+    <tips>troubleshooting common issues</tips>
+
+    <FAQ>questions</FAQ>
+
+    <terms>List of jargon and technical terms in guide</terms>
+
+</userguide>

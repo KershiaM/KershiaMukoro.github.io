@@ -35,10 +35,18 @@ This is a numbered list.
 
 > This is a blockquote.
 
-This is a code block.
-js
-const name = 'John Doe';
-console.log(name);
+`This is code`
+
+```
+This is a
+piece of code
+in a block
+```
+
+```
+This too
+```
+
 This is a table.
 
 | Name     | Age |
@@ -54,11 +62,17 @@ const name = 'John Doe';
 
 **This is a bold text.**
 
-This is an italic text.
+_This is an italic text._
+
+
 
 ```html wrap
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+	incididunt ut labore et dolore magna aliqua.
+</p>
 ```
+
 <center> Your text here </center>
 
 ....
@@ -69,6 +83,7 @@ Add Caption below image
 ....
 
 Add caption below image
+
 <p>
 	<img src="/path/to/image" alt="Amazon Rainforest">
 	<em>The Amazon Rainforest contains a multitude of species.</em>
@@ -76,19 +91,20 @@ Add caption below image
 
 Adding Blank Lines
 
-To add a single extra line after a paragraph, add two extra spaces (  ) at the end of the text.
-To add an extra line of space between paragraphs, add the HTML non-breaking space (&nbsp;) code, followed by two extra spaces (e.g. &nbsp;  ).
+To add a single extra line after a paragraph, add two extra spaces ( ) at the end of the text.
+To add an extra line of space between paragraphs, add the HTML non-breaking space (&nbsp;) code, followed by two extra spaces (e.g. &nbsp; ).
 To add an extra line in between elements which automatically join together (such as lists, you must use the following HTML notation:
+
 <p>&nbsp;</p>
 
-
-Text placement beside image 
+Text placement beside image
 <br clear="left"/>
 <br clear="right"/>
 <br clear="both"/>
 For example:
 
 <img align="left" src="imagepath">
+<img src={graystorreys2} alt="graystorreys2" style={{width: 450}} />
 
 some text aligned to the right of the image
 
@@ -115,15 +131,57 @@ With hspace property you can set horizontal (left and right) padding for an imag
 </p>
 
 ---
+
 How to add admonitions
 
-:::note
+:::note (grey)
 This guide assumes that you are familiar with Asana's basic operations and functions.
 :::
 
+:::tip (green)
+
+:::info (bleu)
+
+:::warning (yellow)
+
+:::danger (red)
+
 ---
+
 How to Add Cards to a md page:
 
 import DocCardList from '@theme/DocCardList';
 <DocCardList />
+
 ---
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::tip[Use tabs in admonitions]
+
+<Tabs>
+  <TabItem value="apple" label="Apple">This is an apple 🍎</TabItem>
+  <TabItem value="orange" label="Orange">This is an orange 🍊</TabItem>
+  <TabItem value="banana" label="Banana">This is a banana 🍌</TabItem>
+</Tabs>
+
+:::
+
+----
+create diff colored tab headings
+
+import styles from './styles.module.css';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" attributes={{className: styles.red}}>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange" attributes={{className: styles.orange}}>
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana" attributes={{className: styles.yellow}}>
+    This is a banana 🍌
+  </TabItem>
+</Tabs>

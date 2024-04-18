@@ -1,14 +1,12 @@
 {
-    "position": 2,
-    "label": "Asana",
-    "collapsible": true,
-    "collapsed": false,
-    "className": "red",
-    "link": {
+  "label": "Asana",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
       "type": "generated-index",
-      "title": "Asana Documentation"
-    },
-    "customProps": {
-      "description": "This description can be used in the swizzled DocCard"
+      "description":"Asana is a project management tool designed to help teams organize, track, and manage their work. Teams can create projects, assign tasks, set deadlines, and communicate about specific assignments. Asana workflows refer to the automated sequences within Asana that streamline processes by reducing manual task entry and oversight. Workflows can be customized to trigger specific actions based on predefined rules. The following guides cover the basics of creating a workflow for deadline-bound projects."
     }
   }
+
+  
