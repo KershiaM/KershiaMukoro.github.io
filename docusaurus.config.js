@@ -90,7 +90,7 @@ const config = {
           {
             title: 'More',
             items: [
-              {label: 'Contact Me', to: '/contact'},
+               {label: 'Contact Me', to: '/contact'},
             ],
           },
         ],
