@@ -90,10 +90,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/KershiaM/KershiaMukoro.github.io/tree/Deployment',
-              },
               {label: 'Contact Me', to: '/contact'},
             ],
           },
