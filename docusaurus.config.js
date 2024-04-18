@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://kershiamukoro.github.io',
+                href: 'https://github.com/KershiaM/KershiaMukoro.github.io/tree/main',
               },
               {label: 'Contact Me', to: '/contact'},
             ],
