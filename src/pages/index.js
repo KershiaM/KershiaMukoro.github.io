@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Dive into Kershia's world of clear, concise, and effective technical communication.">
       <HomepageHeader />
        <main>
         {/* <HomepageFeatures /> */}

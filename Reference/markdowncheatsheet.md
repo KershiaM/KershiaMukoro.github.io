@@ -82,12 +82,12 @@ Add Caption below image
 <figcaption>The Amazon Rainforest contains a multitude of species.</figcaption>
 ....
 
-Add caption below image
+<!-- Add caption below image
 
 <p>
 	<img src="/path/to/image" alt="Amazon Rainforest">
 	<em>The Amazon Rainforest contains a multitude of species.</em>
-</p>
+</p> -->
 
 Adding Blank Lines
 
@@ -104,7 +104,7 @@ Text placement beside image
 For example:
 
 <img align="left" src="imagepath">
-<img src={graystorreys2} alt="graystorreys2" style={{width: 450}} />
+<img src={graystorreys2} alt="graystorreys2" style={{width: 450}} hspace='10'/>
 
 some text aligned to the right of the image
 
@@ -140,7 +140,7 @@ This guide assumes that you are familiar with Asana's basic operations and funct
 
 :::tip (green)
 
-:::info (bleu)
+:::info (blue)
 
 :::warning (yellow)
 
