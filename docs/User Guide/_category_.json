@@ -1,0 +1,13 @@
+{
+  "label": "User Guide: Nmap",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+      "type": "generated-index",
+      "description":"This comprehensive Nmap guide provides a detailed exploration of Nmap, the powerful network scanning tool used by IT professionals for security auditing and network inventory. Whether you are conducting basic network checks or deep vulnerability scans, this guide serves as an essential resource, complete with installation instructions across various platforms, troubleshooting tips, practical examples, and an extensive glossary of terms. Perfect for both beginners and seasoned users, it ensures readers can maximize the capabilities of Nmap while maintaining network integrity and security."
+    }
+  }
+
+
+

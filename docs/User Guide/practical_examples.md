@@ -1,6 +1,6 @@
 ---
 title: "Practical Examples"
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 ### 1. **Identifying Unknown Devices on Your Network**

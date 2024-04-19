@@ -1,6 +1,6 @@
 ---
 title: "Installing Nmap"
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Nmap is compatible with Windows, Linux, and Mac OS X. Download and install Nmap from the [official download page.](https://nmap.org/download.html)
