@@ -9,6 +9,8 @@ import DocCardList from '@theme/DocCardList';
 
 # A Simple Example of a Workflow
 
+<!--  -->
+
 ## Purpose
 The purpose of this workflow is to clearly define each step of the project lifecycle, assigning responsibilities and setting expectations for all involved. The workflow is tailored for project managers and creative leads looking to enhance efficiency, improve communication, and ensure timely delivery of project deliverables.
 

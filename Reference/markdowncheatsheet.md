@@ -185,3 +185,25 @@ import styles from './styles.module.css';
     This is a banana 🍌
   </TabItem>
 </Tabs>
+
+----------------
+
+Dropdown
+
+<details>
+
+<summary>Heading</summary>
+
+List
+
+</details>
+
+Dropdown Auto Open
+
+<details open>
+
+<summary>Heading</summary>
+<br>
+List
+
+</details>

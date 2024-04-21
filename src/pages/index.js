@@ -16,7 +16,7 @@ function HomepageHeader() {
         <p>Passionate about enhancing business processes and driving project success through top-tier documentation services designed to make a substantial impact. Whether you are revamping existing documents or crafting a new documentation framework from scratch, I am here to lead the way.  
         </p>
 
-        <p> Explore my portfolio for a curated look at my work, specifically designed to showcase my capabilities. Dive deeper into my projects and view samples by clicking on the documentation link. Together, let's simplify complex information and make it actionable and usable.
+        <p> Explore my portfolio for a curated look at my work, specifically designed to showcase my capabilities. Dive deeper into my projects and view samples by clicking on documentation. Together, let's simplify complex information and make it actionable and usable.
         </p>
       </div>
     </header>
