@@ -147,6 +147,9 @@ This guide assumes that you are familiar with Asana's basic operations and funct
 :::danger (red)
 
 ---
+<sup></sup> Superscipt
+<sub></sub> Subscript
+---
 
 How to Add Cards to a md page:
 
