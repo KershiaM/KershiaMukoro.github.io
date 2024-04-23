@@ -1,8 +1,8 @@
 ---
 title: 'Biomarkers as Beacons of Health and Disease'
-
+sidebar_position: 1
 ---
-import heartbio from '../../static/img/heartbio.jpg';
+import tropheart from '../../static/img/tropheart.png';
 import biotypes from '../../static/img/biotypes.png';
 import her2 from '../../static/img/her2.png';
 import disbio from '../../static/img/disbio.png';
@@ -48,8 +48,7 @@ Throughout this process, the goal is to find biomarkers that can be easily and r
 Biomarkers are diverse and multifaceted, each type providing unique insights into various aspects of health and disease. Understanding the different types of biomarkers and their specific applications can significantly enhance how diseases are detected, monitored, and treated. This section will explore the primary categories of biomarkers, shedding light on their role in advancing medical science and improving patient care.
 
 :::note Types of Biomarkers
-<img src={biotypes} alt='Types of Biomarkers' style={{width: 800}}/>
-<figcaption><sub>Source: https://www.meditrial.net/2022/09/clinical-trials-how-biomarkers-help-research/</sub></figcaption>
+<img src={biotypes} alt='Types of Biomarkers' style={{width: 700}}/>
 ::::
 
 **Types of Biomarkers:**
@@ -73,9 +72,8 @@ Explore how biomarkers have been successfully applied in real-world scenarios, i
 <details>
 
 <summary>**Use of Troponin for Heart Attack Diagnosis**</summary>
-:::note Biomarkers of Heart Disease
-<img src={heartbio} alt='Biomarkers of Heart Disease' style={{width: 800}}/>
-<figcaption><sub>Source: https://www.mdpi.com/2227-9059/10/5/1085</sub></figcaption>
+:::note Cardiac Biomarkers
+<img src={tropheart} alt='Cardiac Biomarkers' style={{width: 500}}/>
 ::::
 - **Background:** Troponin is a protein released into the bloodstream when heart muscle is damaged. It is an essential biomarker for diagnosing myocardial infarction (heart attack).
 - **Application:** Emergency departments globally use troponin tests as part of the diagnostic process when a heart attack is suspected. The rapid detection of elevated troponin levels enables immediate and appropriate therapeutic intervention.
