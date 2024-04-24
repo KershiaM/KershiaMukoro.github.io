@@ -3,8 +3,8 @@ title: "Expanding Your Nmap Toolkit"
 sidebar_position: 5
 ---
 
-import nse from '../../static/img/nse.jpg';
-import zenmap from '../../static/img/zenmap.png';
+import nse from '../../../static/img/nse.jpg';
+import zenmap from '../../../static/img/zenmap.png';
 
 ### Verbosity and Exporting Scan Results
 

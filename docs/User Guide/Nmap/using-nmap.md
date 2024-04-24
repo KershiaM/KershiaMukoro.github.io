@@ -3,8 +3,8 @@ title: "Using Nmap"
 sidebar_position: 4
 ---
 
-import opt1 from '../../static/img/opt1.png'
-import opt2 from '../../static/img/opt2.png'
+import opt1 from '../../../static/img/opt1.png'
+import opt2 from '../../../static/img/opt2.png'
 
 :::info Prerequisites
 Use of Nmap requires familiarity with command-line interfaces (CLI) for basic network monitoring.

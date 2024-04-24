@@ -2,10 +2,10 @@
 title: 'Biomarkers as Beacons of Health and Disease'
 sidebar_position: 1
 ---
-import tropheart from '../../static/img/tropheart.png';
-import biotypes from '../../static/img/biotypes.png';
-import her2 from '../../static/img/her2.png';
-import disbio from '../../static/img/disbio.png';
+import tropheart from '../../../static/img/tropheart.png';
+import biotypes from '../../../static/img/biotypes.png';
+import her2 from '../../../static/img/her2.png';
+import disbio from '../../../static/img/disbio.png';
 
 
 Biomarkers serve as beacons in the complex landscape of health and disease, guiding both patients and healthcare providers. A biomarker, short for biological marker, is a measurable indicator of biological conditions or trends. Biomarkers act like signals illuminating the body's inner workings, indicating normal processes, the presence of disease, or responses to treatments. Think of a biomarker as a clue or a sign that scientists and doctors can track, measure, and analyze to understand a person's health better or the presence and progression of a disease. By tapping into this vital information, biomarkers can inform diagnosis, predict outcomes, and even guide the effectiveness of treatment plans.

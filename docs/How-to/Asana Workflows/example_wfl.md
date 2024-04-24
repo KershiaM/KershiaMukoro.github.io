@@ -2,7 +2,7 @@
 title: "A Simple Example of a Workflow"
 sidebar_position: 6
 ---
-import corepro from '../../static/img/corepro.png';
+import corepro from '../../../static/img/corepro.png';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DocCardList from '@theme/DocCardList';

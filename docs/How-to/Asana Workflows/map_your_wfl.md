@@ -2,9 +2,9 @@
 title: "Map Out a Workflow in 5 Simple Steps"
 sidebar_position: 3
 ---
-import addsection from '../../static/img/addsection.png';
-import addfield from '../../static/img/addfield.png';
-import overview from '../../static/img/overview.png';
+import addsection from '../../../static/img/addsection.png';
+import addfield from '../../../static/img/addfield.png';
+import overview from '../../../static/img/overview.png';
 import DocCardList from '@theme/DocCardList';
 
 # Map Out a Workflow in 5 Simple Steps

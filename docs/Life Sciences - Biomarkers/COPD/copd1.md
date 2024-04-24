@@ -2,10 +2,10 @@
 title: 'The Global Landscape of COPD'
 ---
 
-import gmrate4 from '../../static/img/gmrate4.jpg';
-import gmrate2 from '../../static/img/gmrate2.jpg';
-import exb2 from '../../static/img/exb2.png';
-import exb3 from '../../static/img/exb3.png';
+import gmrate4 from '../../../static/img/gmrate4.jpg';
+import gmrate2 from '../../../static/img/gmrate2.jpg';
+import exb2 from '../../../static/img/exb2.png';
+import exb3 from '../../../static/img/exb3.png';
 
 
 

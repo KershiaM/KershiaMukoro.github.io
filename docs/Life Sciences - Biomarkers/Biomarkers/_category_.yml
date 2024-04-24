@@ -1,0 +1,8 @@
+position: 1 # float position is supported
+label: 'Biomarkers'
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+link:
+  type: generated-index
+  title: Biomarkers as Beacons of Health and Disease

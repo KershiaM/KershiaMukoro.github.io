@@ -2,8 +2,8 @@
 title: 'Environmental Triggers and COPD'
 ---
 
-import impact from '../../static/img/impact.png';
-import slfrpt from '../../static/img/slfrpt.jpg';
+import impact from '../../../static/img/impact.png';
+import slfrpt from '../../../static/img/slfrpt.jpg';
 
 
 ### Complex Environmental Influences on COPD

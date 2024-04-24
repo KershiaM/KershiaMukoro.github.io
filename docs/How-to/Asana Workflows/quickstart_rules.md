@@ -2,7 +2,7 @@
 title: "Quick Start Guide: Creating Rules in Asana"
 sidebar_position: 5
 ---
-import asana_rules from '../../static/img/asana_rules.gif';
+import asana_rules from '../../../static/img/asana_rules.gif';
 import DocCardList from '@theme/DocCardList';
 
 # Quick Start Guide: Creating Rules in Asana

@@ -3,7 +3,7 @@ title: "Get Started with Nmap"
 sidebar_position: 2
 ---
 
-import nmap from '../../static/img/nmap.png'
+import nmap from '../../../static/img/nmap.png'
 
 :::info Note
 This guide covers the most recent version of Nmap.

@@ -2,7 +2,7 @@
 title: 'Decoding COPD From Symptoms to Molecular Mechanisms'
 ---
 
-import infmec from '../../static/img/infmec.png';
+import infmec from '../../../static/img/infmec.png';
 
 ### Pathophysiology of COPD
 Chronic Obstructive Pulmonary Disease (COPD) initiates with significant changes in the respiratory tract, characterized by narrowing of the airways, thickening of bronchial tubes, increased phlegm production leading to persistent coughs, and alveolar swelling. These physiological alterations comprise two primary conditions: chronic bronchitis and emphysema. Chronic bronchitis primarily contributes to sputum production and airway constriction, while emphysema is marked by reduced lung elasticity due to tissue destruction, increasing alveolar size. As COPD progresses, symptoms intensify and can escalate quickly, leading to exacerbations that severely affect lung function and quality of life.

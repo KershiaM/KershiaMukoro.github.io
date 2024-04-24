@@ -1,6 +1,6 @@
 {
-  "label": "Life Sciences",
-  "position": 2,
+  "label": "How-to",
+  "position": 5,
   "collapsible": true,
   "collapsed": true,
   "link": {
@@ -8,5 +8,4 @@
     }
   }
 
-
-
+  

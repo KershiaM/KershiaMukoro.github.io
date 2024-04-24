@@ -1,7 +1,7 @@
 ---
 title: 'Unraveling the Complex Genetic Landscape of COPD'
 ---
-import alptrp from '../../static/img/alptrp.jpg';
+import alptrp from '../../../static/img/alptrp.jpg';
 
 ### Introduction to Genetic Influences
 
