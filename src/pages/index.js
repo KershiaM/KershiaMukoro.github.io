@@ -14,7 +14,7 @@ function HomepageHeader() {
         <img src={require('/static/img/imghero.png') .default} alt="Hero Banner Image" className="hero__image"/>
         <Heading as="h1" className="hero__title">{siteConfig.title}</Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p>Passionate about enhancing business processes and driving project success through top-tier documentation designed to make a substantial impact. Dive deeper into my portfolio and view samples by clicking on documentation. Together, let's simplify complex information and make it actionable and usable.
+        <p>Passionate about enhancing business processes and driving project success through top-tier documentation designed to make a substantial impact. Click on documentation to view samples of my work highlighting my ability to create and design meticulous and user-friendly documentation.
         </p>
       </div>
     </header>

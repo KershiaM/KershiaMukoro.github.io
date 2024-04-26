@@ -55,6 +55,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom')
+  ],
+
   themeConfig:{
     // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     // ({
@@ -74,7 +78,7 @@ const config = {
             label: 'Documentation',
           },
          
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
                    
           {to: '/contact', label: 'Contact Me', position: 'right'}, // Make sure '/contact' is set up
           {
@@ -84,6 +88,14 @@ const config = {
           },
         ],
       },
+
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+
       footer: {
         // style: 'dark',
         links: [
@@ -101,6 +113,7 @@ const config = {
         darkTheme: prismThemes.dracula,
          defaultLanguage: 'javascript',
       },
+      
        // Add your script here:
     scripts: [
       {
@@ -110,6 +123,7 @@ const config = {
       }
     ]
     }
+  }
 };
 
 export default config;

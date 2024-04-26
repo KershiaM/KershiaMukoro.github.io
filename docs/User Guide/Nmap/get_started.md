@@ -3,16 +3,12 @@ title: "Get Started with Nmap"
 sidebar_position: 2
 ---
 
-import nmap from '../../../static/img/nmap.png'
-
 :::tip Note
 This guide covers the most recent version of Nmap. [**Download the PDF version here**](../../../src/assets/Nmap%20User%20Guide.pdf).
 :::
 
-<p>
-<img src={nmap} alt='Nmap Eye Graphic' style={{width: 245}}/>
+
 # What is Nmap?
-</p>
 Nmap is a free, open source network discovery tool capable of swiftly scanning local and remote networks. Nmap can scan through thousands of connected devices and interrogate ports on specific targets. IP packets are used to identify and uncover information about the network and network devices. Network administrators can use Nmap to inventory, monitor, and discover real-time information on:
 
 - Network devices
