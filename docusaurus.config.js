@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kershia Mukoro',
-  tagline: 'Tech made simple, clarity made powerful.',
+  tagline: 'Technical Writer',
   favicon: 'img/browser.png',
 
   // Set the production url of your site here
@@ -37,7 +37,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       // /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {

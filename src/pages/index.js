@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 // import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import React from 'react';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,10 +14,7 @@ function HomepageHeader() {
         <img src={require('/static/img/imghero.png') .default} alt="Hero Banner Image" className="hero__image"/>
         <Heading as="h1" className="hero__title">{siteConfig.title}</Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p>Passionate about enhancing business processes and driving project success through top-tier documentation services designed to make a substantial impact. Whether you are revamping existing documents or crafting a new documentation framework from scratch, I am here to lead the way.  
-        </p>
-
-        <p> Explore my portfolio for a curated look at my work, specifically designed to showcase my capabilities. Dive deeper into my projects and view samples by clicking on documentation. Together, let's simplify complex information and make it actionable and usable.
+        <p>Passionate about enhancing business processes and driving project success through top-tier documentation designed to make a substantial impact. Dive deeper into my portfolio and view samples by clicking on documentation. Together, let's simplify complex information and make it actionable and usable.
         </p>
       </div>
     </header>
