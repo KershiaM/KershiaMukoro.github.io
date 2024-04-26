@@ -38,7 +38,7 @@ sudo apt-get install nmap
 
 - Verify the script syntax and ensure Nmap's script database includes the script.
 - Use `--script-help` to get information about a script's usage and options.
-- If a script requires arguments, ensure they are correctly formatted, e.g., `--script script-name --script-args arg1,arg2.`
+- If a script requires arguments, ensure they are correctly formatted, e.g., `--script script-name --script-args arg1, arg2.`
 
 ## Network or Firewall Blocking Scans
 
@@ -48,7 +48,7 @@ sudo apt-get install nmap
 ## General Tips
 
 - Always consult the Nmap documentation for detailed information and troubleshooting.
-- Join the Nmap community forums or mailing lists for support and to share your experiences.
+- Join the [Nmap community forums](https://nmap.org/book/vscan-community.html) or [mailing lists](https://nmap.org/mailman/listinfo/fulldisclosure) for support and to share your experiences.
 - Remember, unauthorized scanning can be illegal or unethical.
 - Always have explicit permission before scanning networks.
 - For more detailed guides and advanced usage, refer to the [official Nmap documentation.](https://nmap.org/docs.html)
