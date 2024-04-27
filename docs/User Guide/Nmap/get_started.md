@@ -4,9 +4,11 @@ sidebar_position: 2
 ---
 
 :::tip Note
-This guide covers the most recent version of Nmap. [**Download the PDF version here**](../../../src/assets/Nmap%20User%20Guide.pdf).
+[**Download the PDF version here**](../../../src/assets/Nmap%20User%20Guide.pdf).
 :::
 
+# Purpose
+This user guide provides a concise overview of Nmap, the powerful network scanning tool used by IT professionals for security auditing and network inventory. Whether you are conducting basic network checks or deep vulnerability scans, this guide serves as an essential resource. It includes simple installation steps for multiple platforms, troubleshooting tips, and practical examples to help both new and experienced users efficiently leverage Nmap for network security and management. Use this guide to quickly understand and apply Nmap's capabilities in your IT environment. For more in-depth documentation on NMAP's capabilities visit the [NMAP Documentation page.](https://nmap.org/docs.html)
 
 # What is Nmap?
 Nmap is a free, open source network discovery tool capable of swiftly scanning local and remote networks. Nmap can scan through thousands of connected devices and interrogate ports on specific targets. IP packets are used to identify and uncover information about the network and network devices. Network administrators can use Nmap to inventory, monitor, and discover real-time information on:
