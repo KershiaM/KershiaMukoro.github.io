@@ -15,7 +15,7 @@ As understanding of COPD's etiology advances, its pathogenesis will likely incre
 <details>
 <summary>**References**</summary>
 
-1.	Thoracickey. Pathogenesis of COPD: Persistence of Airway Inflammation – Why Does Airway Inflammation Persist After Cessation of Smoking? Available at: https://thoracickey.com/pathogenesis-of-copd-persistence-of-airway-inflammation-why-does-airway-inflammation-persist-after-cessation-of-smoking/. Accessed.
+1.	Thoracickey. Pathogenesis of COPD: Persistence of Airway Inflammation – Why Does Airway Inflammation Persist After Cessation of Smoking? Available at: https://thoracickey.com/pathogenesis-of-copd-persistence-of-airway-inflammation-why-does-airway-inflammation-persist-after-cessation-of-smoking/.
 2.	Ghosh S, Pleasants RA, Ohar JA, Donohue JF, Drummond MB. Prevalence and factors associated with suboptimal peak inspiratory flow rates in COPD. Int J Chron Obstruct Pulmon Dis. 2019;14:585-595. doi: 10.2147/COPD.S195438. Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6426426/
 3.	Gedebjerg A, Szépligeti SK, Wackerhausen LH, et al. Prediction of mortality in patients with chronic obstructive pulmonary disease with the new Global Initiative for Chronic Obstructive Lung Disease 2017 classification: a cohort study. Lancet Respir Med. 2018;6(3):204-212. doi: 10.1016/S2213-2600(18)30002-X. Available from: https://www.bmj.com/content/378/bmj-2021-069679
 4.	Bafadhel M, McKenna S, Terry S, et al. Acute Exacerbations of Chronic Obstructive Pulmonary Disease. Am J Respir Crit Care Med. 2011;184(6):662-671. doi: 10.1164/rccm.201104-0597OC. Available at: https://www.atsjournals.org/doi/full/10.1164/rccm.201104-0597OC

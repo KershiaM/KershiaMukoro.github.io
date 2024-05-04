@@ -10,10 +10,9 @@ import slfrpt from '../../../static/img/slfrpt.jpg';
 While genetics play a crucial role in Chronic Obstructive Pulmonary Disease (COPD), environmental factors often determine who develops COPD, including both smokers and non-smokers with minimal secondhand smoke exposure. The interplay of these factors significantly influences COPD pathogenesis. Figure 1, illustrates the impact of COPD exacerbations on patient health and quality of life.
 
 :::note  **Figure 1.** The Impact of COPD Exacerbations on Patient Health and Quality of Life
-<img align='left' src={impact} style={{width: 600}}/> <br clear="both"/> &nbsp;    
-
+<img align='left' src={impact} style={{width: 600}}/> <br clear="both"/>
 <figcaption>
-   Source: Taylor E, Doe J. Understanding the impact of chronic obstructive pulmonary disease exacerbations on patient health and quality of life. Res Gate. 2020. Available at: https://www.researchgate.net/publication/338627450_Understanding_the_impact_of_chronic_obstructive_pulmonary_disease_exacerbations_on_patient_health_and_quality_of_life.
+  <sub>[Source: Taylor E, Doe J. Understanding the impact of chronic obstructive pulmonary disease exacerbations on patient health and quality of life. Res Gate. 2020.](https://www.researchgate.net/publication/338627450_Understanding_the_impact_of_chronic_obstructive_pulmonary_disease_exacerbations_on_patient_health_and_quality_of_life)</sub>
 </figcaption>   
 :::
 
@@ -29,10 +28,9 @@ Furthermore, recent research highlights the danger of low body mass index and pr
 Acute exacerbations, which worsen COPD symptoms rapidly, typically stem from environmental exposures. Such exacerbations not only intensify the inflammatory response but also lead to a marked decline in lung function. Studies, including one by Qureshi et al., 2014, have quantified this effect, showing that frequent exacerbators experience a significant reduction in lung function annually compared to those with fewer exacerbations (Figure 2).
 
 :::note  **Figure 2.** Self-reported indoor and outdoor exacerbation triggers in patients with COPD
-<img align='left' src={slfrpt} style={{width: 600}}/> <br clear="both"/> &nbsp;    
-
+<img align='left' src={slfrpt} style={{width: 600}}/> <br clear="both"/>
 <figcaption>
-   Source: Cazzola, M. Introducing COPD Research and Practice . COPD Res Pract 1, 6 (2015). https://doi.org/10.1186/s40749-015-0007-9
+  <sub>[Source: Cazzola, M. Introducing COPD Research and Practice . COPD Res Pract 1, 6 (2015).](https://doi.org/10.1186/s40749-015-0007-9)</sub>
 </figcaption>   
 :::
 
