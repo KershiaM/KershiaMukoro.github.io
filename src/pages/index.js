@@ -6,6 +6,8 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import React from 'react';
 
+
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -28,7 +30,7 @@ export default function Home() {
     <Layout
       title={`Welcome to ${siteConfig.title}`}
       description="Dive into Kershia's world of clear, concise, and effective technical communication.">
-      <HomepageHeader />
+       <HomepageHeader />
        <main>
         {/* <HomepageFeatures /> */}
       </main>

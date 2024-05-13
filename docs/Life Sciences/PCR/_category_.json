@@ -1,0 +1,12 @@
+{
+  "label": "Polymerase Chain Reaction (PCR)",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,  
+  "link": {
+      "type": "generated-index",
+      "description": "This concise yet comprehensive guide demystifies Polymerase Chain Reaction (PCR), a pivotal technique in molecular biology that amplifies specific DNA sequences. Designed to inform readers about the flexibility and importance of PCR, this guide serves as an educational resource that bridges the gap between complex biological techniques and practical applications."
+    }
+  }
+
+  
