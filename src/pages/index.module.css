@@ -25,7 +25,7 @@
 
 .hero__image {
   max-width: 70%;  /* Ensure it does not exceed the container width */
-  max-height: 200px;  /* Maximum height you prefer */
+  max-height: 100px;  /* Maximum height */
   width: auto;  /* Maintain aspect ratio */
   height: auto;  /* Maintain aspect ratio *//* Scale height automatically */
   object-fit: contain;  /* Prevents image distortion *//* Ensure the image fits without being cut */

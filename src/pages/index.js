@@ -13,11 +13,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src={require('/static/img/imghero.png') .default} alt="Hero Banner Image" className="hero__image"/>
         <Heading as="h1" className="hero__title">{siteConfig.title}</Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p>Passionate about enhancing business processes and driving project success through top-tier documentation designed to make a substantial impact. Click on documentation to view samples of my work highlighting my ability to create and design meticulous and user-friendly documentation.
-        </p>
+        <p>Passionate about enhancing business processes and driving project success with high-quality documentation designed to make an impact. Click on <a href="/docs" style={{ fontWeight: 'bold' }}>Documentation</a> to view samples of my work and discover how my dedication to creating detailed, user-friendly documentation can benefit your operations.</p>
+        <img src={require('/static/img/imghero.png').default} alt="Hero Banner Image" className="hero__image"/>
       </div>
     </header>
   );

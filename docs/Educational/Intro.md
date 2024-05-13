@@ -8,11 +8,13 @@ import TabItem from '@theme/TabItem';
 import cia from '../../static/img/cia.png';
 import undconst from '../../static/img/undconst.gif';
 
-<img align="left" src={undconst} alt="Under Construction Image" width="800" hspace="10"/>
-
-<br clear="both"/>
-
 # Cybersecurity for Beginners
+
+<!--  -->
+:::note
+<img align="left" src={undconst} alt="Under Construction Image" width="400" hspace="10"/>
+<br clear="both"/>
+:::
 
 ### What is Cybersecurity?
 Cyber threats, such as hackers and malware, target computers, networks, and data. Cybersecurity is the technology and processes designed to defend digital information systems from unauthorized access and cyber threats.
