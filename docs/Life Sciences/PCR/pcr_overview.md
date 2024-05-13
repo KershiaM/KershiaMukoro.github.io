@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Microscope: The Versatile World of Polymerase Chain Reaction (PCR)'
+title: 'Beyond the Microscope: An Overview of Polymerase Chain Reaction (PCR)'
 ---
 import pcr from '../../../static/img/pcr.png';
 
