@@ -11,7 +11,7 @@ const { themes: prismThemes } = require('prism-react-renderer');
 const config = {
   title: 'Kershia Mukoro',
   tagline: 'Technical Writer',
-  favicon: 'img/portfolio.svg',
+  favicon: 'img/brainbulb.svg',
 
   url: 'https://kershiamukoro.github.io',
   baseUrl: '/KershiaMukoro.github.io/',
@@ -56,7 +56,7 @@ const config = {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/home.svg',
+        src: 'img/brainbulb.svg',
       },
       items: [
         {

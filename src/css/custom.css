@@ -65,7 +65,7 @@
 /* Font Size */
 @media screen and (max-width: 996px) {
   :root {
-    --ifm-font-size-base: 19px;
+    --ifm-font-size-base: 20px;
   }
   article header h1 {
     font-size: 2rem !important;
@@ -77,7 +77,7 @@
 
 @media screen and (min-width: 997px) {
   :root {
-    --ifm-font-size-base: 17px;
+    --ifm-font-size-base: 18px;
   }
   article header h1 {
     font-size: 2rem !important;
