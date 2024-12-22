@@ -1,6 +1,6 @@
 ---
 title: "Cybersecurity for Beginners" 
-sidebar_Position: 1
+sidebar_Position: 3
 ---
 
 import Tabs from '@theme/Tabs';

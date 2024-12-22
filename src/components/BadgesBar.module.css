@@ -1,0 +1,26 @@
+.badgesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* spacing between badges */
+    margin-top: 1rem;
+  }
+  
+  .badge {
+    width: 50px; /* adjust sizes */
+    height: auto;
+  }
+  
+  .badgesContainer a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .badgesContainer a img {
+    transition: transform 0.3s ease;
+  }
+  
+  .badgesContainer a:hover img {
+    transform: scale(1.1); /* Adds a subtle zoom effect on hover */
+  }
+  

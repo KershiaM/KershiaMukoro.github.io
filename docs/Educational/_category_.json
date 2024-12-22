@@ -1,11 +1,11 @@
 {
-  "label": "Educational - Cybersecurity",
+  "label": "Cybersecurity",
   "position": 5,
   "collapsible": true,
   "collapsed": true,  
   "link": {
       "type": "generated-index",
-      "description": "This guide is crafted to introduce the fundamentals of cybersecurity to newcomers in the field. Designed to demonstrate my ability to distill complex technical topics into accessible and engaging content, this piece serves as a practical resource for personal or professional development. Please note that this guide is currently a work in progress."
+      "description": "This documentation demonstrates my ability to simplify complex cybersecurity concepts into clear, engaging content. It includes a beginner's guide, a network vulnerability analysis with technical recommendations, and a WLAN and mobile security plan outlining risks and mitigation strategies. It highlights technical expertise, problem-solving, and effective communication."
   }
 }
 
